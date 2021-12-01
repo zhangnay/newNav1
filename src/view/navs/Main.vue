@@ -8,7 +8,7 @@
       <div class="dhs">
         <div class="dh" v-for="(item, i) in listA" @click="jump(item[2], item[3])"   :key="i">
           <div class="img">
-            <img class="d_class" :src="'/img/导航/'+item[1]" />
+            <img class="d_class" :src="'./img/导航/'+item[1]" />
             <p> {{ item[0] }} </p>
           </div>
         </div>
