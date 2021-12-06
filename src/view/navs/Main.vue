@@ -25,8 +25,10 @@
 </template>
 
 <script>
+//加载数据
 import list from "./list.js";
 import rainbowTime from "@/components/common/rainbowTime";
+
 export default {
   components: {
     rainbowTime,
