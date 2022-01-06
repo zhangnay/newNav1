@@ -33,8 +33,7 @@ const list=[
 
 
             [ "译学院","译学院.png","www.yxgapp.com","1"],
-            [ "百度云下载","百度云.jpg","www.pandownload.com/","1"],
-            [ "Neets","neets.png","neets.cc","1"],
+            [ "百度云下载","百度云.jpg","www.pandownload.com/","1"],    
             [ "百度脑图","百度脑图.png","naotu.baidu.com/","1"],
             [ "CUPFOX","CUPFOX.png","www.cupfox.com/","1","1"], 
             [ "猿学","猿学.png","www.yuanxue365.com","1"],
@@ -60,7 +59,22 @@ const list=[
             [ "华为时钟","腾讯课堂.jpg","华为时钟.html","0"],
             // [ "Jump","腾讯课堂.jpg","jump.html","0"],
             // [ "Wecome","腾讯课堂.jpg","welcome.html","0"],
-            [ "3DCard","腾讯课堂.jpg","3DCard.html","0"],
+            [ "3DCard","腾讯课堂.jpg","3DCard.html","0"], 
+            [ "鸿蒙O","腾讯课堂.jpg","鸿蒙O.html","0"],
+            [ "El-后台","el.jpg","elbackend/index.html","0"],
+            [ "圣诞树","tree.jpg","圣诞树.html","0"],
+
+            [ "滴水","腾讯课堂.jpg","drop/Drop.html","0"],
+            [ "天气","腾讯课堂.jpg","weather/index.html","0"],
+            [ "天气1","腾讯课堂.jpg","weather1/weather.html","0"],
+            [ "天气2","腾讯课堂.jpg","weather2/index.html","0"],
+            [ "3D穿梭","腾讯课堂.jpg","3D穿梭.html","0"],
+            [ "3DMap","腾讯课堂.jpg","3DMap.html","0"],
+            [ "混合模式","混合模式.jpg","混合模式 (Blend Modes).html","0"],
+            [ "CSS波浪","CSS波浪.jpg","CSS波浪.html","0"],
+            [ "MouseRotate","mouseRotate.jpg","mouseRotate.html","0"],
+            [ "Vcard","Vcard.jpg","vcard.html","0"],
+            [ "WaveBall","WaveBall.jpg","WaveBall.html","0"],
             
 
             ] 

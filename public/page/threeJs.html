@@ -13,7 +13,8 @@
   </style>
   <!--引入three.js三维引擎-->
   <script src="http://www.yanhuangxueyuan.com/versions/threejsR92/build/three.js"></script>
-  <script src="http://www.yanhuangxueyuan.com/versions/threejsR92/build/three.js"></script>
+  <!-- <script src="http://www.yanhuangxueyuan.com/versions/threejsR92/build/three.js"></script> -->
+  <script src="http://www.yanhuangxueyuan.com/threejs/examples/js/controls/OrbitControls.js"></script>
 
   <!-- <script src="./three.js"></script> -->
   <!-- <script src="http://www.yanhuangxueyuan.com/threejs/build/three.js"></script> -->
@@ -59,6 +60,7 @@
     mesh3.position.set(120,0,0);//设置mesh3模型对象的xyz坐标为120,0,0
     scene.add(mesh3); //
 
+    
 
 
     /**
@@ -97,13 +99,14 @@
             let T1 = new Date();//本次时间
             let t = T1-T0;//时间差
             T0 = T1;//把本次时间赋值给上次时间
-            requestAnimationFrame(render);
+            // requestAnimationFrame(render);
             renderer.render(scene,camera);//执行渲染操作
             // mesh.rotateY(0.001*t);//旋转角速度0.001弧度每毫秒
         }
     render();
 
     var controls = new THREE.OrbitControls(camera,renderer.domElement);//创建控件对象
+    controls.addEventListener('change', render);//监听鼠标、键盘事件
   </script>
 </body>
 </html>
