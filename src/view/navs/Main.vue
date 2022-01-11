@@ -73,6 +73,10 @@ export default {
       };
     },
   },
+  mounted(){
+    obj = {...lists}
+    console.log(obj)
+  },
   methods: {
     jump(url, type) {
       console.log(url);
